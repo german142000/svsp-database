@@ -7,7 +7,7 @@ http://your.domian/svsp-database/main.php?r=parol&user=admin&f=setCell&tableName
 Где r - пароль, user - пользователь базы данных, значения которых устанавливаются в строке 2 файла main.php:
 
 ```php
-if($_GET['r'] == 214000 && $_GET['user'] == 'admin')
+if($_GET['r'] == 'parol' && $_GET['user'] == 'admin')
 ```
 
 ## Структура svsp-database
