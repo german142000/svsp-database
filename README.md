@@ -1,8 +1,13 @@
 # svsp-database
 
-svsp-database - простая ресурсоемкая база данных. Для управления базы данных используются get запросу по типу
+svsp-database - простая ресурсоемкая база данных. Для управления базы данных используются get запросы по типу:
 ```
-http://your.domian/database/main.php?r=214000&user=admin&f=setCell&tableName=users&column=id&num=8&content=er
+http://your.domian/svsp-database/main.php?r=parol&user=admin&f=setCell&tableName=table1&column=column1&num=0&content=string5
+```
+Где r - пароль, user - пользователь базы данных, значения которых устанавливаются в строке 2 файла main.php:
+
+```php
+if($_GET['r'] == 214000 && $_GET['user'] == 'admin')
 ```
 
 ## Структура svsp-database
