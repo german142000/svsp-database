@@ -1,6 +1,6 @@
 # svsp-database
 
-svsp-database - простая универсальная база данных. Для управления базы данных используются **get** запросы по типу:
+svsp-database - простая универсальная база данных. Для управления базой данных используются **get** запросы по типу:
 ```
 http://your.domian/svsp-database/main.php?r=parol&user=admin&f=setCell&tableName=table1&column=column1&num=0&content=string5
 ```
