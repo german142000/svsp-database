@@ -1,4 +1,4 @@
-<!-- Author - Fonteyn German - svsp -->
+<!-- © Fonteyn German - svsp - 2022 -->
 <?php
 if($_GET['r'] == 'parol' && $_GET['user'] == 'admin'){
 $dir = $_SERVER['DOCUMENT_ROOT']."/svsp-database/".$_GET['tableName']."/".$_GET['column'].".txt";
